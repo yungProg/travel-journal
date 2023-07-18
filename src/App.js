@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import Header from './Header';
+import Place from './Place';
+import scenery from './data';
 import './App.css';
 
 function App() {
+  const vac = scenery.map((item) => {
+    return (
+      <Place key={item.id} item = {item}/>
+    )
+  })
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <section>{vac}</section>
     </div>
   );
 }
