@@ -13,7 +13,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     color: #ffffff;
+}
+
+.globe {
+    margin-bottom: -3px;
 }
 
 .main-div {
@@ -31,7 +36,6 @@ body {
 .place-img {
     max-width: 125px;
     height: 170px;
-    background-size: cover;
 }
 
 .span {
@@ -39,6 +43,12 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+}
+
+.location-dot {
+    width: 7px;
+    height: 9.55px;
+    color: #F55A5A;
 }
 
 h3, .g-map {

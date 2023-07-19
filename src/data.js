@@ -28,6 +28,16 @@ const scenery = [
         date : "01 Oct, 2021 - 18 Nov, 2021",
         description : "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality."
 
+    },
+    {
+        id : 4,
+        country: "Ghana",
+        gMap : "#",
+        location : "Aburi Botanical Garden",
+        locImg : "https://i0.wp.com/www.wondersofwanders.com/wp-content/uploads/2022/02/PSX_20220118_124412-e1644322090208.jpg?w=1020",
+        date : "Always",
+        description : "Aburi Botanical Gardens is one of only five botanic gardens in Ghana. If you like superlatives, you’ll enjoy the fact that it is the oldest and biggest botanic gardens in Ghana."
+
     }
 ]
 
