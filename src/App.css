@@ -66,6 +66,10 @@ h3 {
     color: #918E9B;
 }
 
+.g-map:hover {
+    text-decoration: none;
+}
+
 .loc {
     margin-top: 0;
     margin-bottom: 0;
@@ -84,7 +88,7 @@ h3 {
 
 .description {
     font-weight: 400;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 15.4px;
     color: #2B283A;
     max-width: 600px;

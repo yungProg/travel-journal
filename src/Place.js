@@ -4,7 +4,6 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 
 const Place = (props) => {
-console.log(props.item)
 
     return(
         <div className="main-div">
